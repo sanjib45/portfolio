@@ -3,13 +3,10 @@ import Lottie from "lottie-react";
 import mailPlane from "../SvgAssets/animation_lk79ibml.json";
 import astronot from "../SvgAssets/animation_lk796xeb.json";
 
-
-
-
 function Navbar() {
   const [btnState, SetBtnState] = useState(false);
   const [contState, coSetBtn] = useState(false);
-  
+
   function handleClick() {
     SetBtnState((btnState) => !btnState);
   }
@@ -27,7 +24,8 @@ function Navbar() {
       <section className="nav-main-sec">
         <div className="for-navbar">
           <div className="nav-left-sec">
-            A<span style={{ color: "#cb413f" }}>B</span>hijit
+            S<span style={{ color: "#cb413f" }}>A</span>NJ
+            <span style={{ color: "#cb413f" }}>I</span>B
           </div>
           <div className="nav-right-sec">
             <ul>
@@ -66,7 +64,7 @@ function Navbar() {
                 <h1>WANA CHAT OVER?</h1>
               </div>
               <div className="contact-left-div-form">
-                <form action="https://formspree.io/f/movavjne" method="POST">
+                <form action="https://formspree.io/f/xeojgzap" method="POST">
                   <label htmlFor="My Name Is">My Name Is</label>
                   <br />
                   <input
@@ -96,7 +94,11 @@ function Navbar() {
                   <br />
                   <label htmlFor="My Name Is">My Name Is</label>
                   <br />
-                  <textarea style={{backgroundColor:"gray",textAlign:"center"}} name="massage"placeholder="Massage"></textarea>
+                  <textarea
+                    style={{ backgroundColor: "gray", textAlign: "center" }}
+                    name="massage"
+                    placeholder="Massage"
+                  ></textarea>
                   <button type="submit" className="con-btn">
                     SEND MESSAGE
                   </button>
@@ -106,20 +108,18 @@ function Navbar() {
             <div className="contact-right-div">
               <div className="contact-right-div-info">
                 <h3>GIVE US A CALL!</h3>
-                <h6>+917001823436</h6>
+                <h6>+917076661578</h6>
                 <Lottie className="astronot" animationData={astronot} />
               </div>
 
               <div className="contact-right-div-info">
                 <h3>WRITE WITH US</h3>
-                <h6>adas0861@gmail.com</h6>
+                <h6>santrasanjib199@gmail.com</h6>
               </div>
 
               <div className="contact-right-div-info">
                 <h3>COME AND SEE MY PORTFOILO</h3>
-                <h6>
-                  Welcome to my Website
-                </h6>
+                <h6>Welcome to my Website</h6>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@ function Navbar() {
           </div>
         </div>
 
-        {/* SideNav */}
+   
 
         <div className={`side-nav-full-div${waveNav}`}>
           <div className="close-container" onClick={handleClick2}>
@@ -172,8 +172,7 @@ function Navbar() {
                   <img src="./assets/images/yyyyy.png" alt="" />{" "}
                 </div>
                 <div className="dezian-span">
-                  <span>Devloper</span> <span>+</span> <span>Fitness</span>{" "}
-                  <span>+</span> <span>Youtuber</span>
+                  <span>Devloper</span> 
                 </div>
               </div>
             </div>
@@ -181,15 +180,17 @@ function Navbar() {
               <div className="hire-info">
                 <h3>WANT TO HIRE ME?</h3>
                 <p>
-                  Hallo My Name is Abhijit Das and I am a highly motivated and
-                  results-oriented full-stack web developer with a passion for
-                  building innovative and user-friendly applications. I have a
-                  strong understanding of both the front-end and back-end
-                  aspects of web development,
+                  Hi, I'm Sanjib Santra, a dedicated web developer with a passion
+                  for crafting dynamic and engaging websites. With a strong
+                  background in both front-end and back-end development, I
+                  specialize in creating responsive designs using Html,Bootstrap,React,Javascript,
+                  and modern CSS techniques. My experience includes developing
+                  custom web applications and optimizing user interfaces to
+                  enhance usability and performance.
                 </p>
               </div>
               <div className="hire-btn">
-                <button onClick={handleClick} >HIRE ME!</button>
+                <button onClick={handleClick}>HIRE ME!</button>
               </div>
             </div>
           </div>

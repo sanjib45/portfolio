@@ -28,7 +28,6 @@ function Hoby(props) {
 
         <div className="click-section">
           <div className="photo-btn" data-aos="fade-up-right">
-            {/* <span className="link-button" onClick={props.gallaryData}>See MY Phothos</span>{" "} */}
             <div className="eren-png">
               <img src="./assets/images/eren.png" alt="" />
             </div>

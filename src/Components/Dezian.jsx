@@ -6,9 +6,7 @@ import { loadFull } from "tsparticles";
 function Dezian() {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
+    
     await loadFull(engine);
   }, []);
 
@@ -27,7 +25,7 @@ function Dezian() {
         </h1>
         <div className="about-details" data-aos="fade-right">
           <p>
-            Hallo My Name is Abhijit Das and I am a highly motivated and
+            Hallo My Name is Sanjib Santra and I am a highly motivated and
             results-oriented full-stack web developer with a passion for
             building innovative and user-friendly applications. I have a strong
             understanding of both the front-end and back-end aspects of web
@@ -35,9 +33,9 @@ function Dezian() {
           </p>
         </div>
         <div className="button-for-cv">
-          <a href="https://drive.google.com/file/d/1G994RnIH9j1Zd2pRZEpJ2osEMYZqfMzC/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1a2zZHjOvR7HpVijh0HtSQagvFblnFgNz/view?usp=drive_link">
             {" "}
-            <button>ReSUME</button>{" "}
+            <button>RESUME</button>{" "}
           </a>
         </div>
       </div>

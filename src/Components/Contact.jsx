@@ -34,13 +34,13 @@ function Contact() {
           <div className="contact-right-div">
             <div className="contact-right-div-info">
               <h3>GIVE US A CALL!</h3>
-              <h6>+917001823436</h6>
+              <h6>+917076661578</h6>
               <Lottie className="astronot" animationData={animationData} />
             </div>
 
             <div className="contact-right-div-info">
               <h3>WRITE WITH US</h3>
-              <h6>adas0861@gmail.com</h6>
+              <h6>santrasanjib199@gmail.com</h6>
             </div>
 
             <div className="contact-right-div-info">

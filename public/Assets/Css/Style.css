@@ -36,11 +36,6 @@
 
 .nav-main-sec {
   position: fixed;
-  /* background-image: radial-gradient(
-    circle 780.6px at 10% 20%,
-    rgba(133, 255, 189, 1) 0%,
-    rgba(255, 251, 125, 1) 90.7%
-  ); */
   background-color: #fff;
   width: 100%;
   z-index: 999;
@@ -151,14 +146,16 @@
 }
 /* hero section */
 .hero-section-main {
-  background-image: url("https://i.pinimg.com/originals/f1/e7/34/f1e734f9cade86fe737a9aa404ad5677.gif");
+  background-image: url("https://media.licdn.com/dms/image/C4E12AQGqXjmnyuB71g/article-cover_image-shrink_600_2000/0/1624433257039?e=2147483647&v=beta&t=Xm3dRN6delJi5D3Hl8l8ZYJYvUuSvuPzntU5W3KV6dg");
+  
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .app-set-one .app-set-two {
   width: 50%;
   position: relative;
@@ -755,20 +752,25 @@
   color: #fff;
 }
 .skill-22 {
+  
   display: flex;
+  
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 5% 12%;
   font-family: "Lilita One", cursive;
   font-family: "Tilt Warp", cursive;
 }
+
 .cards-skill {
+ 
   cursor: pointer;
   align-items: center;
   text-align: center;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 5px;
   margin-bottom: 20px;
+  margin-left: 450px;
 }
 .ancor-text {
   color: #fff;
@@ -2801,7 +2803,7 @@ label {
   font-family: cursive;
 }
 .home-content h1 {
-  /* color: rgba(113, 126, 214, 0.748); */
+ 
   padding: 5px;
   margin-left: 150px;
   background: linear-gradient(30deg, #00ffff, #ff00c3);

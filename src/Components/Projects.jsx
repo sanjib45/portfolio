@@ -39,7 +39,7 @@ function Projects(props) {
               </a>
             </div>
           </div>
-          <div className="img-12">
+          {/* <div className="img-12">
             <div
               className="digital-span"
               data-aos="fade-left"
@@ -61,8 +61,8 @@ function Projects(props) {
                 rather than at a brick-and-mortar location.
               </span>
             </div>
-          </div>
-          <div className="img-13">
+          </div> */}
+          {/* <div className="img-13">
             <div className="img-11-info" data-aos="fade-right">
               <span>
                 The idea is to weigh out the importance of recent and older data
@@ -77,7 +77,7 @@ function Projects(props) {
                 <Lottie className="img-13-img" animationData={portFolio} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="for-wave">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
